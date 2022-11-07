@@ -16,7 +16,7 @@ public class ModPlacedFeatures {
 
     public static final RegistryObject<PlacedFeature> TITANIUM_ORE_PLACED = PLACED_FEATURES.register("titanium_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.TITANIUM_ORE.getHolder().get(),
-                    rareOrePlacement(40, //VeinsPerChunk
+                    rareOrePlacement(2, //VeinsPerChunk
                             HeightRangePlacement.triangle(VerticalAnchor.absolute(-60), VerticalAnchor.absolute(60)))));
 
     public static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {
