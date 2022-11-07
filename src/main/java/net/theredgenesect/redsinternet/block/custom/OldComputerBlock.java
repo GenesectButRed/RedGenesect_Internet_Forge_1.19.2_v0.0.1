@@ -22,7 +22,8 @@ public class OldComputerBlock extends HorizontalDirectionalBlock {
         super(properties);
     }
 
-    private static final VoxelShape SHAPE = Block.box(0,0,0,15,13,16);
+    private static final VoxelShape SHAPE =
+            Block.box(0,0,0,15,13,16);
 
     @Override
     public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {
@@ -46,7 +47,6 @@ public class OldComputerBlock extends HorizontalDirectionalBlock {
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        super.createBlockStateDefinition(builder);
         builder.add(FACING);
     }
 }

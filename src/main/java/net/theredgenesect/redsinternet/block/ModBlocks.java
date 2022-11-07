@@ -26,6 +26,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> OLD_COMPUTER = registerBlock("old_computer",
             () -> new OldComputerBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(60f).noOcclusion().requiresCorrectToolForDrops().lightLevel(state -> 5)), ModCreativeModeTab.THE_INTERNET_TAB);
+
     public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(50f).requiresCorrectToolForDrops()), ModCreativeModeTab.THE_INTERNET_TAB);
