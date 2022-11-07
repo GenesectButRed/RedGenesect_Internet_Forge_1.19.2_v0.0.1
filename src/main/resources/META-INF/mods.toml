@@ -27,9 +27,9 @@ displayName="Red's Internet" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="redsinternetlogo.png" #optional
 # A text field displayed in the mod UI
-credits="Big thanks to Modding by Kaupenjoe on YouTube. This mod wouldn't have been possible without him!" #optional
+credits="Big thanks to Modding by Kaupenjoe on YouTube. This mod wouldn't have been possible without him! Also, huge thanks to u/ThatOneKirbyMain2568 on Reddit and Viaven on Planet Minecraft as well as Platnium G17 on Curseforge for the Titanium and Painting textures respectively." #optional
 # A text field displayed in the mod UI
 authors="TheRedGenesect and AlephSubZero" #optional
 # Display Test controls the display for your mod in the server connection screen

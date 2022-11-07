@@ -11,6 +11,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.theredgenesect.redsinternet.block.ModBlocks;
 import net.theredgenesect.redsinternet.item.ModItems;
+import net.theredgenesect.redsinternet.painting.ModPaintings;
 import net.theredgenesect.redsinternet.world.feature.ModConfiguredFeatures;
 import net.theredgenesect.redsinternet.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
@@ -30,6 +31,8 @@ public class RedInternet
 
         ModConfiguredFeatures.register(modEventBus);
         ModPlacedFeatures.register(modEventBus);
+
+        ModPaintings.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
