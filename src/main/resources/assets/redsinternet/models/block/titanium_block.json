@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "redsinternet:block/titanium_block"
+  }
+}

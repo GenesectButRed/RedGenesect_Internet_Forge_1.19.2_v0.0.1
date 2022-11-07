@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "redsinternet:block/old_computer"
+    },
+    "facing=south": {
+      "model": "redsinternet:block/old_computer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "redsinternet:block/old_computer",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "redsinternet:block/old_computer",
+      "y": 90
+    }
+  }
+}

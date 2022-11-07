@@ -1,0 +1,11 @@
+{
+  "item.redsinternet.computer": "Computer",
+  "item.redsinternet.raw_titanium": "Raw Titanium",
+  "item.redsinternet.titanium_ingot": "Titanium Ingot",
+
+  "block.redsinternet.old_computer": "Computer",
+  "block.redsinternet.titanium_ore": "Titanium Ore",
+  "block.redsinternet.titanium_block": "Block of Titanium",
+
+  "itemGroup.theinternettab": "The Internet"
+}
