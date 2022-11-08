@@ -23,7 +23,7 @@ public class OldComputerBlock extends HorizontalDirectionalBlock {
     }
 
     private static final VoxelShape SHAPE =
-            Block.box(0,0,0,15,13,16);
+            Block.box(0,0,0,16,13,16);
 
     @Override
     public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {

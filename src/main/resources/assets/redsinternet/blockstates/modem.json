@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": {"model": "redsinternet:block/modem_on"},
+    "lit=false": {"model": "redsinternet:block/modem_off"}
+  }
+}

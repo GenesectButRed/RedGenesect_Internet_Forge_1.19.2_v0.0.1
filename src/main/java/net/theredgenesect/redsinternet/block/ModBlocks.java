@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.theredgenesect.redsinternet.RedInternet;
+import net.theredgenesect.redsinternet.block.custom.MODEMBlock;
 import net.theredgenesect.redsinternet.block.custom.OldComputerBlock;
 import net.theredgenesect.redsinternet.item.ModCreativeModeTab;
 import net.theredgenesect.redsinternet.item.ModItems;
@@ -34,6 +35,11 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(35f).requiresCorrectToolForDrops(),
                     UniformInt.of(6,11)), ModCreativeModeTab.THE_INTERNET_TAB);
+
+    public static final RegistryObject<Block> MODEM_BLOCK = registerBlock("modem",
+        () -> new MODEMBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(60f).noOcclusion().requiresCorrectToolForDrops()
+                .lightLevel(state -> state.getValue(MODEMBlock.LIT) ? 15 : 0)), ModCreativeModeTab.THE_INTERNET_TAB);
 
 
     private static <T extends Block>RegistryObject <T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
